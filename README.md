@@ -3,6 +3,15 @@ Silly pubsub example
 
 Simple example demonstrating proof-of-concept for pubsub as DAQ debug stream.
 
+## Prerequisites
+redis-server and its python bindings. if you're on a Mac, I suggest simply running:
+```
+brew install redis
+pip install redis
+```
+
+## Usage
+
 To run:
 
 *Terminal 1*
